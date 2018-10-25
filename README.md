@@ -1,6 +1,6 @@
 ## vuepress构建文档
 
-## Build Setup
+#### Build Setup
 
 ``` bash
 # 安装
