@@ -27,7 +27,7 @@ module.exports = {
             },
         ],
         sidebar: {
-            '/guide/': [
+            '/apidoc/': [
                 {
                     title: '开发文档',
                     collapsable: false,
