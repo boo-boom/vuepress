@@ -1,6 +1,6 @@
 module.exports = {
     port: '8080',
-    base: '/',
+    base: '/vuepress/',
     dest: 'docs/.vuepress/dist',
     locales: {
         '/': {
@@ -26,9 +26,17 @@ module.exports = {
                 link: 'https://www.github.com/'
             },
         ],
-        sidebar: [
-            ['/house/', 'yit_house'],
-            ['/mst/', 'yit_mst'],
-        ],
+        sidebar: {
+            '/guide/': [
+                {
+                    title: '开发文档',
+                    collapsable: false,
+                    children: [
+                        '',
+                        'yit-mst',
+                    ]
+                },
+            ]
+        }
     },
 }
